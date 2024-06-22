@@ -1,3 +1,4 @@
+/* Root Container */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,23 +6,63 @@
   text-align: center;
 }
 
+/* Body Styling */
 body {
-  background-color: #f6f6f6;
+  background-color: #d7d7d7;
+}
 
-  h1 {
-    color: #000000;
-  }
+/* Heading Styling */
+h1 {
+  color: #000000;
+}
 
-  .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+/* Card Styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
-  .card-title {
-    font-size: 1.5rem;
-    color: #343a40;
-  }
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
-  .card-text {
-    color: #6c757d;
-  }
+/* Card Title */
+.card-title {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+/* Card Text */
+.card-text {
+  color: #6c757d;
+}
+
+/* Navbar Styling */
+.navbar {
+  margin-bottom: 2rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  color: #ffffff;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer a:hover {
+  color: #007bff;
 }
