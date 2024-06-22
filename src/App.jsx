@@ -6,7 +6,7 @@ import gambar from "./assets/DwanMirror.jpg";
 function App() {
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Ridwan Hidayatullah</h1>
+      <h1 className="text-center mb-4">M Ridwan Hidayatullah</h1>
       <div className="card mx-auto" style={{ width: "18rem" }}>
         <img src={gambar} className="card-img-top" alt="gambar" />
         <div className="card-body">
